@@ -23,7 +23,14 @@
    </section>
    <section id="poster">
    </section>
-   $('form').jsonForm({
+   <form></form>
+    <div id="res" class="alert"></div>
+    <script type="text/javascript" src="deps/jquery.min.js"></script>
+    <script type="text/javascript" src="deps/underscore.js"></script>
+    <script type="text/javascript" src="deps/opt/jsv.js"></script>
+    <script type="text/javascript" src="lib/jsonform.js"></script>
+    <script type="text/javascript">
+      $('form').jsonForm({
         schema: {
           name: {
             type: 'string',
@@ -46,6 +53,7 @@
           }
         }
       });
+    </script>
    <footer>
       <p>Created by <a href="https://github.com/Navya-amarneni">Navya sree</a></p>
    </footer>
